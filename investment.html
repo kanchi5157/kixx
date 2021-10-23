@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta charset="utf-8">
+	<title>KIXX</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="icon" type="img/png" href="asserts/img/bt4.png">
+	<link rel="stylesheet" type="text/css" href="asserts/style.css">
+	<link rel="stylesheet" type="text/css" href="asserts/responsive.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="asserts/kixx.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+</head>
+<body class="d-md-flex">
+<!-- side navbar start -->
+      <aside class="col-12 col-md-3 col-xl-3 p-0 bg1">
+        <nav class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top " id="sidebar">
+          <div class="text-center ">
+            <a href="main.html">
+            	<img src="asserts/img/whitelogo.png" alt="profile picture" class="img-fluid my-4 p-1 d-none d-md-block "/></a>
+              <a href="main.html" class="navbar-brand mx-0 d-xl-none d-sm-block d-md-none"><img src="asserts/img/whitelogo.png" alt="profile picture" width="150px" class="img-fluid "/></a>
+          </div>
+          <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse order-last " id="nav">
+            <ul class="navbar-nav text-start flex-column  justify-content-center">
+            <li class="nav-item ">
+              <a href="kixx.html" class="nav-link"><ion-icon name="person-outline" class="ic"></ion-icon> Investors</a>
+            </li>
+            <li class="nav-item">
+              <a href="comission.html" class="nav-link text-white"><ion-icon name="people-outline" class="ic"></ion-icon> Comission Agents</a>
+            </li>
+            <li class="nav-item active">
+              <a href="record.html" class="nav-link text-white"><ion-icon name="stop-circle-outline" class="ic"></ion-icon>Record Investment</a>
+            </li>
+            <li class="nav-item">
+              <a href="allokixx.html" class="nav-link text-white"><ion-icon name="person-add-outline" class="ic"></ion-icon>Allocate KIXX</a>
+            </li>
+            <li class="nav-item">
+              <a href="wallet.html" class="nav-link text-white"><ion-icon name="wallet-outline" class="ic"></ion-icon>View Wallet</a>
+            </li>
+             <li class="nav-item">
+              <a href="mis1.html" class="nav-link text-white"><ion-icon name="document-outline" class="ic"></ion-icon>MIS</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-white"><ion-icon name="power-outline" class="ic"></ion-icon>Logout</a>
+            </li>
+          </ul>
+          </div>      
+        </nav>
+      </aside>
+<!-- sidenavbar end -->
+<!-- main content start -->
+<section  id="main" class="w-100">
+<div class="col-12 col-md-12 col-xl-12 p-0 body min-vh-100">
+<header class="header">
+      <div class="box d-none d-sm-none d-md-block ">
+           <img class="ball" src="asserts/img/ball.png"> 
+           <h5 class="fw-bold">IEO Management Pane</h5>
+      </div>
+      <div class="profile d-none d-sm-none d-md-block">
+            <p onclick="goBack()" class="pointer">Go Back <img src="asserts/img/profile.png" width="25px" class="ml5"></p>
+      </div>
+</header>
+<br>
+<br>
+ <div class="d-grid mt-5">
+      <form class="d-grid center pp" action="#popup">
+        <div class="ml-auto"> 
+              <label class="mb-2 text-center"> Investors name</label>
+              <input type="text" name="" class="mb-3 center fm1" placeholder="eg- Tia" value="Parijat Varma">
+        </div>
+        <div class="ml-auto">
+             <label class="mb-2 text-center">Investors Mobile number</label>
+             <input type="text" name="" class="mb-3 center fm1" placeholder="00-000-000" value="99999-9999">
+        </div>
+        <div class="ml-auto">
+             <label class="mb-2 text-center">Investors UID</label>
+             <input type="text" name="" class="mb-3 center fm1" placeholder="eg- 12345" value="UID-12345" >
+        </div>
+        <div class="ml-auto d-flex mb-2">
+            <label class=" text-center m-auto">Received Via </label>
+               <div class="">
+                <input type="text" name=" " class="dis" placeholder="euros"> 
+                   <input type="text" name=" " class="dis"placeholder="ether"> 
+                       <input type="text" name=" " class="dis" placeholder="bitcoin">  
+                          <input type="text" name=" " class="dis" placeholder="doge"> 
+      </div>
+        </div>
+                  <div class="ml-auto d-flex mb-2">
+            <label class=" text-center m-auto">Value in  Euros</label>
+               <div class="">
+<button class="button dis1" disabled> 000</button> 
+<button class="button dis1" disabled>000</button> 
+<button class="button dis1" disabled> 000</button> 
+<button class="button dis1" disabled> 000</button> 
+      </div>
+        </div>
+             <div class="ml-auto">
+            <label class="mb-2 text-center">Total Amount in Euros</label>
+      <input type="text" name="" class="mb-3 center fm1 text-center" placeholder="00000">
+        </div>
+             <div class="ml-auto " style="display: contents; font-size:20px">
+                 <div class="mt-3 center pl100">
+                  <button type="submit" class="button ps-4 pe-4">Next</button>
+        </div>
+      </form>
+    </div>
+</div>
+</section>
+<!-- popup window start -->
+<div id="popup" class="overlay ">
+  <div class="popup tr">
+    <h2 class="h2 text-center mb-4" style="color:#598ec1">Search comission agent</h2>
+    <a class="close" href="#">&times;</a>
+      <form  autocomplete="off" action="agent.html">
+       <div class="d-md-flex justify-content-center">
+      <div class="d-grid autocomplete">
+            <label class="text-center">Enter Agent’s name</label>
+            <input id="myInput" type="text" name="" placeholder="eg- Tia" width="auto">
+      </div>
+      <div class="d-grid mt-4 p-3">
+            <p class="h2">or</p>
+      </div>
+      <div class="d-grid">
+            <label class="text-center">Agent’s Mobile number</label>
+            <input type="text" name="" placeholder="2023-23-243">
+      </div>
+       <div class="d-grid mt-4 p-3">
+            <p class="h2">or</p>
+      </div>
+           <div class="d-grid">
+           <label class="text-center">Agent’s UID</label>
+           <input type="text" name="" placeholder="eg- 123456">
+      </div>
+      </div>
+      <div class="text-center center mt-2 mb-2">
+           <button class="button mt-3">Search</button>
+      </div>
+        </form>
+ 
+</div>
+    </div>
+<!-- popup window end -->
+<!--main content end -->
+<!-- loader start -->
+<!--     <div class="loader-wrapper">
+      <span class="loader"><ion-icon name="football-outline"></ion-icon></span>
+    </div> -->
+<!--     loader end -->
+</div>
+</body>
+<script>
+function autocomplete(inp, arr) {
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
+  var currentFocus;
+  /*execute a function when someone writes in the text field:*/
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        /*check if the item starts with the same letters as the text field value:*/
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+          b.addEventListener("click", function(e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+  /*execute a function presses a key on the keyboard:*/
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+  /*execute a function when someone clicks in the document:*/
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+/*An array containing all the country names in the world:*/
+var countries = ["Parijat varma","Nishanth","vikas","karthik","priti","ajay","biswas","ngnext","bit2bit","kixx",    "Liam",
+            "Olivia",
+            "Noah",
+            "Emma",
+            "Oliver",
+            "Ava",
+            "William",
+            "Sophia",
+            "Elijah",
+            "Isabella",
+            "James",
+            "Charlotte",
+            "Benjamin",
+            "Amelia",
+            "Lucas",
+            "Mia",
+            "Mason",
+            "Harper",
+            "Ethan"];
+
+/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+autocomplete(document.getElementById("myInput"), countries);
+</script>
+</html>

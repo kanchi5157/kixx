@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta charset="utf-8">
+	<title>KIXX</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="icon" type="img/png" href="asserts/img/bt4.png">
+	<link rel="stylesheet" type="text/css" href="asserts/style.css">
+	<link rel="stylesheet" type="text/css" href="asserts/responsive.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="asserts/kixx.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+</head>
+<body class="d-md-flex">
+<!-- side navbar start -->
+      <aside class="col-12 col-md-3 col-xl-3 p-0 bg1">
+        <nav class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top " id="sidebar">
+          <div class="text-center ">
+            <a href="main.html">
+            	<img src="asserts/img/whitelogo.png" alt="profile picture" class="img-fluid my-4 p-1 d-none d-md-block "/></a>
+              <a href="main.html" class="navbar-brand mx-0 d-xl-none d-sm-block d-md-none"><img src="asserts/img/whitelogo.png" alt="profile picture" width="150px" class="img-fluid "/></a>
+          </div>
+          <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse order-last " id="nav">
+            <ul class="navbar-nav text-start flex-column  justify-content-center">
+            <li class="nav-item ">
+              <a href="kixx.html" class="nav-link"><ion-icon name="person-outline" class="ic"></ion-icon> Investors</a>
+            </li>
+            <li class="nav-item">
+              <a href="comission.html" class="nav-link text-white"><ion-icon name="people-outline" class="ic"></ion-icon> Comission Agents</a>
+            </li>
+            <li class="nav-item active">
+              <a href="record.html" class="nav-link text-white"><ion-icon name="stop-circle-outline" class="ic"></ion-icon>Record Investment</a>
+            </li>
+            <li class="nav-item">
+              <a href="allokixx.html" class="nav-link text-white"><ion-icon name="person-add-outline" class="ic"></ion-icon>Allocate KIXX</a>
+            </li>
+            <li class="nav-item">
+              <a href="wallet.html" class="nav-link text-white"><ion-icon name="wallet-outline" class="ic"></ion-icon>View Wallet</a>
+            </li>
+             <li class="nav-item">
+              <a href="mis1.html" class="nav-link text-white"><ion-icon name="document-outline" class="ic"></ion-icon>MIS</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-white"><ion-icon name="power-outline" class="ic"></ion-icon>Logout</a>
+            </li>
+          </ul>
+          </div>      
+        </nav>
+      </aside>
+<!-- sidenavbar end -->
+<!-- main content start -->
+<section  id="main" class="w-100">
+<div class="col-12 col-md-12 col-xl-12 p-0 body min-vh-100">
+<header class="header">
+      <div class="box d-none d-sm-none d-md-block ">
+           <img class="ball" src="asserts/img/ball.png"> 
+           <h5 class="fw-bold">IEO Management Pane</h5>
+      </div>
+      <div class="profile d-none d-sm-none d-md-block">
+            <p onclick="goBack()" class="pointer">Go Back <img src="asserts/img/profile.png" width="25px" class="ml5"></p>
+      </div>
+</header>
+<br>
+<br>
+ <div class="d-grid mt-5">
+      <form class="d-grid center pp" action="#popup">
+        <div class="ml-auto"> 
+              <label class="mb-2 text-center"> Investors name</label>
+              <input type="text" name="" class="mb-3 center fm1" placeholder="eg- Tia" value="Parijat Varma">
+        </div>
+        <div class="ml-auto">
+             <label class="mb-2 text-center">Investors Mobile number</label>
+             <input type="text" name="" class="mb-3 center fm1" placeholder="00-000-000" value="99999-9999">
+        </div>
+        <div class="ml-auto">
+             <label class="mb-2 text-center">Investors UID</label>
+             <input type="text" name="" class="mb-3 center fm1" placeholder="eg- 12345" value="UID-12345" >
+        </div>
+        <div class="ml-auto">
+                 <label class="mb-2 text-center">Total Amount in Euros</label>
+                 <input type="text" name="" class="mb-3 center fm1 text-center" placeholder="00000">
+        </div>
+        <div class="ml-auto d-flex mb-2">
+                 <label class=" text-center m-auto">Received Via </label>
+        <div>
+                 <button class="button dis1" disabled> Euros</button> 
+                 <button class="button dis1" disabled>Ether</button> 
+                 <button class="button dis1" disabled> Bitcoin</button> 
+                 <button class="button dis1" disabled> Dodge</button> 
+       </div>
+        </div>
+        <div class="ml-auto text-center">
+            <label class="mb-2 ">Agent’s name</label>
+            <input type="text" value="Nishant gaurav" class="mb-3 center fm1 " placeholder="Nishant gaurav">
+        </div>
+        <div class="ml-auto text-center">
+            <label class="mb-2 ">Agent’s Mobile number</label>
+             <input type="text" value="999-999-999" class="mb-3 center fm1 " placeholder="999-999-999">
+        </div>
+        <div class="ml-auto text-center">
+           <label class="mb-2">Agent’s UID</label>
+             <input type="text" value="123-456" class="mb-3 center fm1 " placeholder="123-456">
+        </div>
+                    <div class="ml-auto d-flex mr-auto">
+            <label class="m-auto text-center">Select Flat amount</label>
+      <div class="form-check">
+ <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+</div>
+           <label class="m-auto text-center ms-3">Select percentage</label>
+    <div class="form-check ">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2">
+</div>
+        </div>
+        <div class="bag option1 ml-auto mt-2">
+            <label class="m-auto text-center">Flat amount</label>
+            <input type="text" name="" class="mb-3 center fm1 text-center" placeholder="10,000">
+        </div>
+          <div class="bag option2 ml-auto mt-2">
+            <label class="m-auto text-center">Percentage</label>
+           <input type="text" name="" class="mb-3 center fm1 text-center" placeholder="10%">
+        </div>
+        <div class="bag option2 ml-auto mt-2">
+            <label class="m-auto text-center">Euros</label>
+            <button   class="mb-3 center button dis2" disabled>Euros</button> 
+        </div>
+        <div class="mt-3 center pl100">
+                  <button type="submit" class="button ps-4 pe-4">Record</button>
+        </div>
+        <br>
+        <br>
+      </form>
+    </div>
+</div>
+</section>
+
+<!-- popup window start -->
+  <div id="popup" class="overlay">
+  <div class="popup sc">
+    <img src="asserts/img/ok.gif" class="img-fluid ok center">
+    <h2 class="h2 text-center mb-2" style="color:#598ec1">Investment recorded successfully !</h2>
+    <a class="close" href="#">&times;</a>
+    <br>
+    <div class="text-center">
+<table class="table w-100">
+  <tbody>
+    <tr>
+      <th scope="row">Currency</th>
+ <th scope="row">Current bal.</th>
+  <th scope="row">Transfer</th>
+   <th scope="row">Updated bal.</th>
+    </tr>
+    <tr>
+      <td>Euro</td>
+      <td>124</td>
+     <td>124</td>
+      <td>124</td>
+    </tr>
+    <tr>
+           <td>Etherium</td>
+      <td>124</td>
+     <td>124</td>
+      <td>124</td>
+    </tr>
+  </tbody>
+</table>  
+  </div>
+</div>
+    </div>
+<!-- popup window end -->
+<!--main content end -->
+<!-- loader start -->
+<!--     <div class="loader-wrapper">
+      <span class="loader"><ion-icon name="football-outline"></ion-icon></span>
+    </div> -->
+<!--     loader end -->
+</div>
+</body>
+<script>
+  $(document).ready(function(){
+    $('input[type="radio"]').click (function(){
+      var inputvalue =$(this).attr("value")
+      var targetBag =$("."+ inputvalue);
+      $(".bag").not(targetBag).hide();
+      $(targetBag).show();
+    });
+  });
+</script>
+</html>
